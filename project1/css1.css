@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+.container{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),grey), url("https://wallpaperaccess.com/full/13322.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+
+nav{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 5px 0;
+}
+.logo{
+	  width:120px;
+	  cursor:pointer;
+      border-radius:20px;
+}
+.cart-icon{
+	cursor:pointer;
+    width: 40px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 70px;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-decoration:none;
+
+
+
+
+}
+nav ul{
+	  flex:1;
+	  text-align:right;
+	  padding-right:10px;
+}
+nav ul li{
+	 display: inline-block;
+	 list-style:none;
+	 margin: 10px 30px;
+}
+nav ul li a{
+	  color:#fff;
+	  text-decoration:none;
+	 position: relative;
+}
+nav ul li a::after{
+	 content:'';
+	 width:0;
+	 height: 3px;
+	 position: absolute;
+	 bottom: -5px;
+	 left: 50%;
+	 transform: translateX(-50%);
+	 background:#fff;
+	 transition:width 0.3s;
+}
+nav ul li a:hover::after{
+      width:50%;
+}
+.button{
+    color: #fbfcfd;
+    padding:10px 25px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.button:hover {
+                    background-color: #555555;
+                    color: white;
+                    }
+
+
+                    .text-box{
+    color:#fff;
+    position:absolute;
+    bottom:20%;
+}
+.text-box p{
+  text-align: center;
+    font-size:40px;
+    font-weight:100px;
+  font-family: "Audiowide", sans-serif;
+}
+.text-box h1{
+    text-align: center;
+  font-size : 90px;
+  font-weight: bold;
+  -webkit-text-stroke:1;
+}
+.text-box h3{
+    text-align: center;
+  font-size: 25px;
+
+}
+
+.first_page{
+   background-image: linear-gradient(to bottom right,lightblue, white 50%, lightblue);
+
+
+}
